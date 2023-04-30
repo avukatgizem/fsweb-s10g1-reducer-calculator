@@ -76,13 +76,13 @@ export const initialState = {
 - [ ] Bu eventhandlerı 1 butonunun onClick'ine argümanına 1 vererek aktarın. (Şunu unutmayın click handlera bir fonksiyon aktarıyoruz, fonksiyonu çalıştırmıyoruz)
 - [ ] Hala 1 butonuna basıldığında totali 1 artırıp ekrana yazdırıp yazdırmadığını test edin.
 - [ ] Yeni event handlerınızı gerekli değerleri vererek tek tek diğer butonlara da bağlayın.
-- [ ] Tüm butonlara tek tek tıklandığında totale doğru değerleri ekleyip eklemediğini test edin.
+- [+] Tüm butonlara tek tek tıklandığında totale doğru değerleri ekleyip eklemediğini test edin.
 
 #### Bir action oluşturucu oluşturun ve bağlayın.
 
 > _Şu anda uygulamamız sadece toplama işlemi yapıyor. Şimdi bunu değiştireceğiz. Kendi action oluşturucunuzu yaratmanın vakti geldi!_
 
-- [ ] `CHANGE_OPERATION` action'ı (`./reducer/index.js` içinde) alın. Bu reducer operatör değeri alır (+,- ve \*) ve bunu state'e aktarır.
+- [+] `CHANGE_OPERATION` action'ı (`./reducer/index.js` içinde) alın. Bu reducer operatör değeri alır (+,- ve \*) ve bunu state'e aktarır.
 - [ ] Argümanı olarak bir operatör alan bir action oluşturucu oluşturun (`./actions/index.js` içinde) ve `CHANGE_OPERATION.` tipinde bir action nesnesi oluşturun
 - [ ] Yeni action oluşturucuyu `App.js` ye import edin
 - [ ] `+`, `-` ve `*` butonlarına tıklandığında, ilgili operatörü action oluşturucunuza ekleyen bir event handler oluşturun. Her buton için doğru operatörü gönderdiğinizden emin olun.
